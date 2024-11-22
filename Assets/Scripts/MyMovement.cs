@@ -5,7 +5,6 @@ public class MyMovement : MonoBehaviour
 {
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Animator animator;
-    [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpForce = 10f;
     
@@ -47,23 +46,6 @@ public class MyMovement : MonoBehaviour
         else if (isGrounded == false)
         {
             animator.SetBool("isjumping", true);
-        }
-
-        if (rb.velocity.x > 0.01)
-        {
-            spriteRenderer.flipX = false;
-            animator.SetBool("isWalking", true);
-        }
-        
-        if (rb.velocity.x < -0.01)
-        {
-            spriteRenderer.flipX = true;
-            animator.SetBool("isWalking", true);
-        }
-
-        if (rb.velocity.x == 0)
-        {
-            animator.SetBool("isWalking", false);
         }
     }
     
