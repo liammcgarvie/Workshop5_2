@@ -51,7 +51,19 @@ public class MyMovement : MonoBehaviour
 
         if (rb.velocity.x > 0.01)
         {
-            .flipX = false;
+            spriteRenderer.flipX = false;
+            animator.SetBool("isWalking", true);
+        }
+        
+        if (rb.velocity.x < -0.01)
+        {
+            spriteRenderer.flipX = true;
+            animator.SetBool("isWalking", true);
+        }
+
+        if (rb.velocity.x == 0)
+        {
+            animator.SetBool("isWalking", false);
         }
     }
     
