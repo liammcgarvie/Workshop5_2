@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class MyMovement : MonoBehaviour
 {
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Animator animator;
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private float jumpForce = 10f;
     
@@ -34,6 +35,18 @@ public class MyMovement : MonoBehaviour
         rb.velocity = new Vector2(TranslateInputToVelocityX(moveInput), currentVelocity.y);
         
         isGrounded = IsGrounded();
+    }
+
+    void Update()
+    {
+        if (isGrounded)
+        {
+            animator.SetBool("isJumping", true);
+        }
+        else if (isGrounded == false)
+        {
+            animator.SetBool("isJumping", false);
+        }
     }
     
     private bool IsGrounded()
