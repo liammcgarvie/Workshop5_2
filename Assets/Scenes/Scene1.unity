@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31, y: 131}
+  m_AnchoredPosition: {x: -131, y: 170}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493849923
@@ -247,14 +247,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Imagine this is the game...
-
-
-    WOOOOo
-
-
-    WOW!!!       Looks amrazing!
-    :O'
+  m_text: "Imagine this is the game...\n\nWOOOOo\n\nWOW!!!       Looks amrazing!
+    :O\n\n\n\n\n\n                                                             Look
+    at that bear go!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -317,7 +312,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -211.37878, y: 0, z: -313.86548, w: -148.92603}
+  m_margin: {x: -211.37878, y: 0, z: -541.9707, w: -420.3425}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
