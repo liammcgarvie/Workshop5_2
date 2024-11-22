@@ -4685,6 +4685,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1240189575785434760, guid: 822f6f82dcdbcd54ba1e3b2e03f3fdff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1773051955}
+    - targetCorrespondingSourceObject: {fileID: 1240189575785434760, guid: 822f6f82dcdbcd54ba1e3b2e03f3fdff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1773051956}
   m_SourcePrefab: {fileID: 100100000, guid: 822f6f82dcdbcd54ba1e3b2e03f3fdff, type: 3}
 --- !u!1 &1773051943 stripped
 GameObject:
@@ -4946,9 +4949,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grappleLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 136
   rope: {fileID: 1395000508}
   cam: {fileID: 1408215141}
+--- !u!232 &1773051956
+DistanceJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773051943}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 23.222147
+  m_MaxDistanceOnly: 0
 --- !u!1 &1780011960
 GameObject:
   m_ObjectHideFlags: 0
