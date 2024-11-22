@@ -41,11 +41,11 @@ public class MyMovement : MonoBehaviour
     {
         if (isGrounded)
         {
-            animator.SetBool("isJumping", true);
+            animator.SetBool("isjumping", false);
         }
         else if (isGrounded == false)
         {
-            animator.SetBool("isJumping", false);
+            animator.SetBool("isjumping", true);
         }
     }
     
