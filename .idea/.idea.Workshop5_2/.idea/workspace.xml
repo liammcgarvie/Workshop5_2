@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675e4964-1a04-463f-b157-f86970e6b576" name="Changes" comment="" />
+    <list default="true" id="675e4964-1a04-463f-b157-f86970e6b576" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/workshop6scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/workshop6scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ApplicationHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ApplicationHandler.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
