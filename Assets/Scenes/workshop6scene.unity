@@ -7667,6 +7667,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   animator: {fileID: 1773051952}
+  spriteRenderer: {fileID: 1773051957}
   maxSpeed: 10
   jumpForce: 500
 --- !u!114 &1773051947
@@ -7849,6 +7850,11 @@ DistanceJoint2D:
   m_AutoConfigureDistance: 1
   m_Distance: 23.222147
   m_MaxDistanceOnly: 0
+--- !u!212 &1773051957 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5364609901447830144, guid: 822f6f82dcdbcd54ba1e3b2e03f3fdff, type: 3}
+  m_PrefabInstance: {fileID: 1773051942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1780011960
 GameObject:
   m_ObjectHideFlags: 0
