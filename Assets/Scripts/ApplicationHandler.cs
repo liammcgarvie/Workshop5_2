@@ -10,7 +10,7 @@ public class ApplicationHandler : MonoBehaviour
     public void ChangeScene()
     {
         // Load the scene named "NewScene"
-        SceneManager.LoadSceneAsync("Scene1", LoadSceneMode.Single);
+        SceneManager.LoadSceneAsync("Workshop6scene", LoadSceneMode.Single);
     }
 
     public void QuitGame()
